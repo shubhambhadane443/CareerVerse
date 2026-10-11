@@ -1,0 +1,119 @@
+career,required_skills,interest,education,average_salary,description,growth_outlook
+Software Developer,programming,technology,engineering,"₹800,000 - ₹2,000,000","Develop software applications and systems using programming languages like Java, Python, C++, or JavaScript. Write clean, efficient code and collaborate with cross-functional teams.",Very High
+Data Scientist,python,statistics,technology,"₹900,000 - ₹1,800,000","Analyze complex datasets to extract insights and inform business decisions. Build machine learning models and statistical analysis tools.",Very High
+Machine Learning Engineer,python,artificial intelligence,engineering,"₹1,000,000 - ₹2,500,000","Design and implement machine learning systems and algorithms. Work with large datasets and deep learning frameworks.",Very High
+DevOps Engineer,cloud computing,technology,engineering,"₹700,000 - ₹1,500,000","Bridge development and operations by automating deployment pipelines, managing infrastructure, and ensuring system reliability.",High
+Full Stack Developer,javascript,web development,engineering,"₹600,000 - ₹1,400,000","Develop both front-end and back-end of web applications. Work with databases, APIs, and modern web frameworks.",High
+Cloud Architect,cloud computing,technology,engineering,"₹1,200,000 - ₹2,500,000","Design and oversee cloud computing strategies, including cloud adoption plans, cloud application design, and cloud management.",Very High
+Cybersecurity Analyst,security,technology,engineering,"₹700,000 - ₹1,600,000","Protect organizational systems and networks from cyber threats. Conduct security assessments and implement protective measures.",Very High
+Blockchain Developer,cryptocurrency,technology,engineering,"₹800,000 - ₹1,800,000","Develop decentralized applications and smart contracts using blockchain technology. Work with cryptocurrencies and distributed ledgers.",High
+AI Research Scientist,python,artificial intelligence,phd,"₹1,500,000 - ₹3,000,000","Conduct research in artificial intelligence and machine learning. Publish papers and develop innovative AI solutions.",Very High
+Mobile App Developer,android,technology,engineering,"₹600,000 - ₹1,400,000","Design and develop applications for mobile devices using iOS, Android, or cross-platform frameworks.",High
+Data Analyst,excel,statistics,technology,"₹500,000 - ₹900,000","Analyze data to help organizations make better decisions. Create reports, dashboards, and visualizations.",High
+Business Analyst,communication,analytics,business,"₹600,000 - ₹1,200,000","Analyze business processes and requirements. Bridge the gap between IT and business stakeholders.",High
+Product Manager,communication,product,business,"₹1,000,000 - ₹2,000,000","Lead product development from conception to launch. Define product strategy and coordinate cross-functional teams.",High
+UX Designer,design,user experience,arts,"₹600,000 - ₹1,200,000","Design user-friendly interfaces and experiences. Conduct user research and create prototypes.",High
+UI Designer,design,user interface,arts,"₹500,000 - ₹1,000,000","Create visually appealing user interfaces. Design graphics, icons, and layout elements.",Moderate
+Graphic Designer,creativity,design,arts,"₹400,000 - ₹800,000","Create visual concepts using computer software or by hand. Design logos, brochures, websites, and other marketing materials.",Moderate
+Web Designer,html,design,arts,"₹400,000 - ₹800,000","Design and create websites. Focus on layout, visual appearance, and usability.",Moderate
+Video Editor,premiere,creativity,arts,"₹400,000 - ₹900,000","Edit video footage for films, television, and online content. Use editing software to create compelling stories.",Moderate
+Motion Graphics Designer,after effects,animation,arts,"₹500,000 - ₹1,000,000","Create animated graphics and visual effects for various media. Work with 2D and 3D animation techniques.",Moderate
+3D Artist,maya,animation,arts,"₹500,000 - ₹1,200,000","Create three-dimensional models, animations, and visual effects for games, films, and advertisements.",Moderate
+Digital Marketer,seo,marketing,business,"₹450,000 - ₹900,000","Promote products and services through online channels. Manage social media, search engine optimization, and paid advertising.",High
+Content Marketer,writing,marketing,business,"₹400,000 - ₹800,000","Create and distribute valuable content to attract and engage target audiences. Develop content strategies.",Moderate
+Social Media Manager,communication,social media,business,"₹400,000 - ₹750,000","Manage social media presence for brands and organizations. Create content and engage with followers.",Moderate
+SEO Specialist,seo,marketing,business,"₹450,000 - ₹900,000","Optimize websites to rank higher in search engine results. Analyze data and implement SEO strategies.",High
+Email Marketing Specialist,marketing,analytics,business,"₹450,000 - ₹850,000","Design and execute email marketing campaigns. Analyze open rates, click-through rates, and conversions.",Moderate
+Growth Hacker,analytics,marketing,business,"₹700,000 - ₹1,400,000","Use creative, low-cost strategies to grow a business. Focus on experimentation and data-driven growth.",High
+Financial Analyst,finance,analysis,commerce,"₹700,000 - ₹1,400,000","Analyze financial data and market trends. Prepare reports and forecasts to guide business decisions.",High
+Investment Banker,finance,investment,commerce,"₹1,500,000 - ₹5,000,000","Advise companies on mergers, acquisitions, and fundraising. Raise capital through debt and equity markets.",High
+Chartered Accountant,accounting,finance,commerce,"₹800,000 - ₹2,000,000","Prepare and examine financial records. Ensure accuracy and compliance with tax laws.",High
+Actuarial Analyst,mathematics,statistics,commerce,"₹700,000 - ₹1,500,000","Analyze statistical data to calculate costs of accidents, illness, and disability. Work in insurance and pension planning.",High
+Financial Planner,finance,planning,commerce,"₹600,000 - ₹1,200,000","Help individuals and businesses achieve financial goals. Create investment strategies and retirement plans.",Moderate
+Investment Analyst,finance,analytics,commerce,"₹800,000 - ₹1,600,000","Research and analyze investment opportunities. Provide recommendations for portfolio management.",High
+Psychologist,communication,helping,science,"₹500,000 - ₹1,000,000","Assess and treat mental health issues. Provide counseling and therapy to individuals and groups.",Moderate
+Counselor,communication,helping,psychology,"₹400,000 - ₹800,000","Help individuals cope with personal, social, and career challenges. Provide guidance and support.",Moderate
+Social Worker,communication,helping,social work,"₹400,000 - ₹700,000","Help people overcome challenges in their lives. Connect clients with resources and support services.",Moderate
+Human Resources Manager,communication,people,management,"₹800,000 - ₹1,800,000","Lead HR functions including recruitment, training, employee relations, and compensation.",High
+Talent Acquisition Specialist,communication,recruitment,management,"₹500,000 - ₹1,000,000","Source and recruit top talent for organizations. Manage the full recruitment lifecycle.",High
+Recruiter,communication,recruitment,management,"₹450,000 - ₹900,000","Find and attract candidates for job openings. Screen applications and conduct interviews.",Moderate
+Teacher,communication,education,any,"₹350,000 - ₹800,000","Educate students in various subjects. Create lesson plans and assess student progress.",Moderate
+Professor,research,education,phd,"₹1,000,000 - ₹2,500,000","Teach at colleges and universities. Conduct research and publish academic papers.",Moderate
+Education Administrator,leadership,education,management,"₹700,000 - ₹1,400,000","Manage educational institutions and programs. Oversee budgets, staff, and operations.",Moderate
+Curriculum Developer,writing,education,any,"₹500,000 - ₹1,000,000","Design educational materials and curricula. Ensure alignment with learning objectives.",Moderate
+Journalist,writing,media,arts,"₹400,000 - ₹900,000","Investigate and report on news events. Write articles for newspapers, magazines, and online publications.",Moderate
+Editor,writing,media,arts,"₹500,000 - ₹1,000,000","Review and revise written content. Ensure accuracy, clarity, and adherence to style guidelines.",Moderate
+Content Writer,writing,media,arts,"₹400,000 - ₹800,000","Create engaging content for websites, blogs, and marketing materials. Research topics and optimize for SEO.",Moderate
+Copywriter,writing,advertising,arts,"₹500,000 - ₹1,000,000","Write persuasive copy for advertisements and marketing campaigns. Create compelling brand messages.",Moderate
+Technical Writer,writing,technology,engineering,"₹600,000 - ₹1,200,000","Create technical documentation, manuals, and guides. Translate complex information into accessible content.",High
+Public Relations Specialist,communication,media,business,"₹500,000 - ₹1,000,000","Manage public image of organizations. Write press releases and handle media relations.",Moderate
+Enterpreneur,leadership,business,any,"Variable","Start and manage new business ventures. Take risks to create innovative products and services.",Variable
+Management Consultant,problem solving,business,management,"₹1,000,000 - ₹2,500,000","Advise organizations on improving performance. Analyze problems and recommend solutions.",High
+Project Manager,leadership,management,management,"₹800,000 - ₹1,800,000","Plan and execute projects from start to finish. Coordinate teams and manage timelines.",High
+Operations Manager,leadership,operations,management,"₹800,000 - ₹1,500,000","Oversee daily operations of organizations. Improve efficiency and productivity.",High
+Supply Chain Manager,logistics,operations,management,"₹700,000 - ₹1,400,000","Manage supply chain operations. Optimize inventory, transportation, and distribution.",High
+Business Development Manager,sales,business,management,"₹800,000 - ₹1,800,000","Identify growth opportunities and partnerships. Drive new business development.",High
+Sales Manager,communication,sales,management,"₹700,000 - ₹1,500,000","Lead sales teams and develop strategies. Meet revenue targets and build customer relationships.",Moderate
+Account Executive,communication,sales,business,"₹500,000 - ₹1,000,000","Manage client accounts and relationships. Develop business proposals and close deals.",Moderate
+Real Estate Agent,communication,sales,any,"₹500,000 - ₹1,500,000","Help clients buy, sell, and rent properties. Market listings and negotiate transactions.",Moderate
+Insurance Agent,communication,sales,any,"₹400,000 - ₹900,000","Sell insurance policies to clients. Assess risk and recommend appropriate coverage.",Moderate
+Architect,design,architecture,architecture,"₹800,000 - ₹2,000,000","Design buildings and structures. Create blueprints and oversee construction projects.",High
+Interior Designer,design,interiors,arts,"₹500,000 - ₹1,200,000","Design interior spaces that are functional and aesthetically pleasing. Select furniture and decor.",Moderate
+Landscape Architect,design,nature,architecture,"₹600,000 - ₹1,200,000","Design outdoor spaces including parks, gardens, and campus grounds.",Moderate
+Civil Engineer,engineering,civil construction,engineering,"₹600,000 - ₹1,400,000","Design and supervise construction of infrastructure projects. Work on roads, bridges, and buildings.",High
+Mechanical Engineer,engineering,mechanical,engineering,"₹600,000 - ₹1,400,000","Design and manufacture mechanical devices and systems. Work with tools, machines, and engines.",High
+Electrical Engineer,engineering,electrical,engineering,"₹600,000 - ₹1,400,000","Design and develop electrical systems and components. Work on power generation and distribution.",High
+Electronics Engineer,engineering,electronics,engineering,"₹600,000 - ₹1,400,000","Design and develop electronic circuits and devices. Work with microchips and sensors.",High
+Aerospace Engineer,engineering,aerospace,engineering,"₹1,000,000 - ₹2,500,000","Design aircraft, spacecraft, and related systems. Work on propulsion and aerodynamics.",Very High
+Biomedical Engineer,engineering,medicine,engineering,"₹700,000 - ₹1,600,000","Combine engineering principles with medical sciences to design healthcare equipment and devices.",High
+Chemical Engineer,engineering,chemistry,engineering,"₹700,000 - ₹1,600,000","Design chemical processes and equipment for manufacturing. Work with chemicals and materials.",High
+Environmental Engineer,engineering,environment,engineering,"₹600,000 - ₹1,200,000","Develop solutions to environmental problems. Work on pollution control and waste management.",High
+Marine Engineer,engineering,marine,engineering,"₹700,000 - ₹1,600,000","Design and maintain marine vessels and offshore structures. Work on propulsion and navigation systems.",High
+Robotics Engineer,engineering,robotics,engineering,"₹800,000 - ₹1,800,000","Design and develop robotic systems and automation solutions. Work with AI and control systems.",Very High
+Physician,medicine,healthcare,medicine,"₹1,000,000 - ₹3,000,000","Diagnose and treat injuries and illnesses. Examine patients and prescribe medications.",Very High
+Surgeon,medicine,healthcare,medicine,"₹2,000,000 - ₹5,000,000","Perform surgical operations to treat injuries and diseases. Specialize in various surgical fields.",Very High
+Nurse,communication,healthcare,nursing,"₹400,000 - ₹800,000","Provide and coordinate patient care. Administer medications and assist with treatments.",Moderate
+Pharmacist,medicine,healthcare,pharmacy,"₹600,000 - ₹1,200,000","Dispense medications and advise patients. Ensure safe and effective use of prescription drugs.",Moderate
+Physical Therapist,communication,healthcare,physical therapy,"₹500,000 - ₹900,000","Help patients recover from injuries. Develop treatment plans and exercises.",Moderate
+Occupational Therapist,communication,healthcare,therapy,"₹500,000 - ₹900,000","Help patients develop or recover daily living skills. Work with people with disabilities.",Moderate
+Veterinarian,medicine,animals,veterinary,"₹700,000 - ₹1,500,000","Provide medical care for animals. Diagnose illnesses and perform surgeries.",High
+Dentist,medicine,dental,dental,"₹800,000 - ₹2,000,000","Diagnose and treat dental problems. Perform cleanings, fillings, and other dental procedures.",High
+Medical Laboratory Scientist,research,healthcare,science,"₹500,000 - ₹900,000","Conduct laboratory tests to diagnose diseases. Analyze blood, tissue, and other samples.",Moderate
+Biomedical Scientist,research,biology,science,"₹600,000 - ₹1,200,000","Conduct research on diseases and treatments. Work in laboratories and research institutions.",High
+Biotechnologist,research,biology,science,"₹600,000 - ₹1,400,000","Use biological processes to develop products. Work in agriculture, medicine, and industry.",High
+Bioinformatician,python,biology,science,"₹800,000 - ₹1,600,000","Analyze biological data using computational methods. Work with genomics and proteomics data.",Very High
+Research Scientist,research,science,phd,"₹800,000 - ₹2,000,000","Conduct scientific research in various fields. Publish findings and advance knowledge.",High
+Data Engineer,python,data,engineering,"₹800,000 - ₹1,600,000","Build and maintain data pipelines and infrastructure. Ensure data availability and quality.",Very High
+Data Architect,database,data,engineering,"₹1,000,000 - ₹2,000,000","Design data systems and architectures. Ensure scalability and performance.",Very High
+Business Intelligence Analyst,excel,analytics,business,"₹700,000 - ₹1,400,000","Analyze business data to provide insights. Create reports and dashboards for decision-making.",High
+Statistician,statistics,mathematics,science,"₹700,000 - ₹1,400,000","Apply statistical methods to analyze data. Design experiments and interpret results.",High
+Quantitative Analyst,python,finance,mathematics,"₹1,200,000 - ₹2,500,000","Use mathematical models to analyze financial markets. Develop trading strategies.",Very High
+Risk Analyst,risk,finance,commerce,"₹700,000 - ₹1,400,000","Identify and assess potential risks. Develop strategies to mitigate financial and operational risks.",High
+Compliance Officer,attention to detail,legal,law,"₹600,000 - ₹1,200,000","Ensure organizations comply with regulations. Develop and implement compliance programs.",Moderate
+Lawyer,communication,legal,law,"₹800,000 - ₹3,000,000","Represent clients in legal matters. Provide advice and advocate in court.",High
+Judge,leadership,legal,law,"₹1,500,000 - ₹3,000,000","Oversee court proceedings and make legal decisions. Interpret and apply laws.",High
+Legal Consultant,communication,legal,law,"₹800,000 - ₹2,000,000","Advise clients on legal matters. Provide guidance on laws and regulations.",High
+Paralegal,research,legal,law,"₹400,000 - ₹700,000","Assist lawyers with legal research and documentation. Prepare cases and contracts.",Moderate
+Translator,language,communication,any,"₹400,000 - ₹900,000","Translate written and spoken content between languages. Ensure accuracy and cultural appropriateness.",Moderate
+Interpreter,communication,language,any,"₹500,000 - ₹1,000,000","Convert spoken language in real-time. Work in conferences, meetings, and events.",Moderate
+Linguist,language,communication,phd,"₹600,000 - ₹1,200,000","Study languages and their structure. Research etymology, grammar, and language evolution.",Moderate
+Political Analyst,research,politics,social science,"₹600,000 - ₹1,200,000","Analyze political events and trends. Provide insights on policies and governance.",Moderate
+Policy Analyst,research,public policy,social science,"₹600,000 - ₹1,200,000","Research and analyze public policies. Recommend improvements and assess impact.",Moderate
+Urban Planner,design,city planning,architecture,"₹600,000 - ₹1,200,000","Develop plans for land use and urban development. Address environmental and community needs.",Moderate
+Sociologist,research,social issues,social science,"₹500,000 - ₹1,000,000","Study human societies and social behavior. Conduct research and publish findings.",Moderate
+Anthropologist,research,cultures,social science,"₹500,000 - ₹1,000,000","Study human cultures and societies. Research customs, beliefs, and social structures.",Moderate
+Archaeologist,research,history,science,"₹500,000 - ₹1,000,000","Excavate and analyze historical sites and artifacts. Study human history through material evidence.",Moderate
+Historian,research,history,social science,"₹500,000 - ₹1,000,000","Research and interpret historical events. Write books and articles about the past.",Moderate
+Museum Curator,research,art,arts,"₹500,000 - ₹1,000,000","Collect, preserve, and display artifacts. Organize exhibitions and manage museum collections.",Moderate
+Librarian,research,information,library science,"₹400,000 - ₹800,000","Manage library collections and resources. Help users find information and materials.",Moderate
+Information Architect,design,information,technology,"₹700,000 - ₹1,400,000","Design information systems and structures. Organize content for websites and applications.",High
+UX Researcher,research,user experience,social science,"₹700,000 - ₹1,400,000","Study user behavior and needs. Conduct research to inform design decisions.",High
+Customer Success Manager,communication,customers,business,"₹600,000 - ₹1,200,000","Build relationships with customers. Ensure customer satisfaction and retention.",Moderate
+Support Specialist,communication,customers,any,"₹350,000 - ₹600,000","Provide technical support and assistance. Resolve customer issues and problems.",Moderate
+Technical Support Engineer,troubleshooting,technology,engineering,"₹500,000 - ₹900,000","Diagnose and solve technical problems. Support customers and internal teams.",Moderate
+Network Administrator,networking,technology,engineering,"₹600,000 - ₹1,200,000","Manage and maintain computer networks. Ensure network security and performance.",High
+Database Administrator,database,technology,engineering,"₹700,000 - ₹1,400,000","Manage and maintain database systems. Ensure data availability and security.",High
+Systems Administrator,linux,technology,engineering,"₹600,000 - ₹1,200,000","Manage and maintain computer systems. Handle server administration and troubleshooting.",High
+IT Project Manager,leadership,technology,management,"₹1,000,000 - ₹2,000,000","Lead IT projects from planning to completion. Coordinate teams and manage resources.",High
+Chief Technology Officer,leadership,technology,engineering,"₹2,000,000 - ₹5,000,000","Lead technology strategy and innovation. Oversee IT departments and technological initiatives.",Very High
+Chief Executive Officer,leadership,business,management,"₹3,000,000 - ₹10,000,000","Lead organizations and make strategic decisions. Report to board of directors.",Very High

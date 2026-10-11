@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CareerVerse - AI Career Recommendation System</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="app-container">
+        <!-- Header -->
+        <header class="header">
+            <div class="logo">
+                <i class="fas fa-globe"></i>
+                <span>CareerVerse</span>
+            </div>
+            <nav class="nav-links">
+                <a href="#" class="active" onclick="showSection('home')">Home</a>
+                <a href="#" onclick="showSection('explore')">Explore Careers</a>
+                <a href="#" onclick="showSection('about')">About</a>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main-content">
+            <!-- Home Section -->
+            <section id="home-section" class="section active">
+                <div class="hero">
+                    <!-- Animated Career Illustration -->
+                    <div class="hero-illustration">
+                        <div class="career-icon"><i class="fas fa-laptop-code"></i></div>
+                        <div class="career-icon"><i class="fas fa-briefcase"></i></div>
+                        <div class="career-icon"><i class="fas fa-chart-line"></i></div>
+                        <div class="career-icon"><i class="fas fa-lightbulb"></i></div>
+                        <div class="career-icon"><i class="fas fa-rocket"></i></div>
+                        <div class="career-icon"><i class="fas fa-star"></i></div>
+                        <div class="connecting-line"></div>
+                        <div class="connecting-line"></div>
+                        <div class="connecting-line"></div>
+                        <div class="connecting-line"></div>
+                        <div class="ai-brain"><i class="fas fa-brain"></i></div>
+                    </div>
+                    
+                    <h1>Discover Your Perfect Career</h1>
+                    <p>AI-powered career recommendations based on your skills, interests, and education</p>
+                    <button class="cta-button" onclick="scrollToForm()">
+                        <i class="fas fa-rocket"></i> Get Started
+                    </button>
+                </div>
+
+                <!-- Assessment Form -->
+                <div class="assessment-form" id="assessment-form">
+                    <h2><i class="fas fa-clipboard-check"></i> Career Assessment</h2>
+                    
+                    <!-- Step 1: Skills -->
+                    <div class="form-step" id="step-1">
+                        <h3>Step 1: Select Your Skills</h3>
+                        <p class="step-hint">Click on skills that match your abilities</p>
+                        <div class="skills-container" id="skills-container">
+                            <!-- Skills will be populated by JavaScript -->
+                        </div>
+                        <div class="selected-skills">
+                            <span>Selected:</span>
+                            <div id="selected-skills-list"></div>
+                        </div>
+                        <div class="step-navigation">
+                            <button class="btn-next" onclick="nextStep(2)">
+                                Next: Interests <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Step 2: Interests -->
+                    <div class="form-step" id="step-2" style="display: none;">
+                        <h3>Step 2: Select Your Interest</h3>
+                        <p class="step-hint">What area interests you the most?</p>
+                        <div class="interests-grid" id="interests-grid">
+                            <div class="interest-card" onclick="selectInterest(this, 'technology')">
+                                <i class="fas fa-laptop-code"></i>
+                                <span>Technology</span>
+                            </div>
+                            <div class="interest-card" onclick="selectInterest(this, 'business')">
+                                <i class="fas fa-briefcase"></i>
+                                <span>Business</span>
+                            </div>
+                            <div class="interest-card" onclick="selectInterest(this, 'creative')">
+                                <i class="fas fa-palette"></i>
+                                <span>Creative</span>
+                            </div>
+                            <div class="interest-card" onclick="selectInterest(this, 'science')">
+                                <i class="fas fa-flask"></i>
+                                <span>Science</span>
+                            </div>
+                            <div class="interest-card" onclick="selectInterest(this, 'healthcare')">
+                                <i class="fas fa-heartbeat"></i>
+                                <span>Healthcare</span>
+                            </div>
+                            <div class="interest-card" onclick="selectInterest(this, 'education')">
+                                <i class="fas fa-graduation-cap"></i>
+                                <span>Education</span>
+                            </div>
+                            <div class="interest-card" onclick="selectInterest(this, 'finance')">
+                                <i class="fas fa-chart-line"></i>
+                                <span>Finance</span>
+                            </div>
+                            <div class="interest-card" onclick="selectInterest(this, 'media')">
+                                <i class="fas fa-camera"></i>
+                                <span>Media</span>
+                            </div>
+                        </div>
+                        <input type="hidden" id="selected-interest" value="">
+                        <div class="step-navigation">
+                            <button class="btn-prev" onclick="prevStep(1)">
+                                <i class="fas fa-arrow-left"></i> Back
+                            </button>
+                            <button class="btn-next" onclick="nextStep(3)">
+                                Next: Education <i class="fas fa-arrow-right"></i>
+                            </button>
+                        </div>
+                    </div>
+
+                    <!-- Step 3: Education -->
+                    <div class="form-step" id="step-3" style="display: none;">
+                        <h3>Step 3: Select Your Education</h3>
+                        <p class="step-hint">What's your educational background?</p>
+                        <div class="education-options" id="education-options">
+                            <div class="education-card" onclick="selectEducation(this, 'engineering')">
+                                <i class="fas fa-cogs"></i>
+                                <span>Engineering</span>
+                            </div>
+                            <div class="education-card" onclick="selectEducation(this, 'science')">
+                                <i class="fas fa-flask"></i>
+                                <span>Science</span>
+                            </div>
+                            <div class="education-card" onclick="selectEducation(this, 'commerce')">
+                                <i class="fas fa-coins"></i>
+                                <span>Commerce</span>
+                            </div>
+                            <div class="education-card" onclick="selectEducation(this, 'arts')">
+                                <i class="fas fa-paint-brush"></i>
+                                <span>Arts</span>
+                            </div>
+                            <div class="education-card" onclick="selectEducation(this, 'management')">
+                                <i class="fas fa-users"></i>
+                                <span>Management</span>
+                            </div>
+                            <div class="education-card" onclick="selectEducation(this, 'medical')">
+                                <i class="fas fa-user-md"></i>
+                                <span>Medical</span>
+                            </div>
+                            <div class="education-card" onclick="selectEducation(this, 'law')">
+                                <i class="fas fa-gavel"></i>
+                                <span>Law</span>
+                            </div>
+                            <div class="education-card" onclick="selectEducation(this, 'any')">
+                                <i class="fas fa-star"></i>
+                                <span>Other/Any</span>
+                            </div>
+                        </div>
+                        <input type="hidden" id="selected-education" value="">
+                        <div class="step-navigation">
+                            <button class="btn-prev" onclick="prevStep(2)">
+                                <i class="fas fa-arrow-left"></i> Back
+                            </button>
+                            <button class="btn-analyze" onclick="analyzeCareer()">
+                                <i class="fas fa-magic"></i> Analyze My Career
+                            </button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Loading -->
+                <div class="loading" id="loading" style="display: none;">
+                    <div class="spinner"></div>
+                    <p>Analyzing your profile...</p>
+                    <p class="loading-hint">Our AI is finding the best career matches for you</p>
+                </div>
+
+                <!-- Results Section -->
+                <div class="results-section" id="results-section" style="display: none;">
+                    <h2><i class="fas fa-trophy"></i> Your Career Matches</h2>
+                    <div class="results-container" id="results-container"></div>
+                </div>
+
+                <!-- Insights Section -->
+                <div class="insights-section" id="insights-section" style="display: none;">
+                    <h2><i class="fas fa-lightbulb"></i> Career Insights</h2>
+                    <div class="insights-container" id="insights-container"></div>
+                </div>
+            </section>
+
+            <!-- Explore Section -->
+            <section id="explore-section" class="section">
+                <h2><i class="fas fa-compass"></i> Explore Careers</h2>
+                <div class="search-bar">
+                    <input type="text" id="career-search" placeholder="Search careers..." onkeyup="searchCareers()">
+                    <i class="fas fa-search"></i>
+                </div>
+                <div class="careers-grid" id="careers-grid"></div>
+            </section>
+
+            <!-- About Section -->
+            <section id="about-section" class="section">
+                <div class="about-content">
+                    <h2><i class="fas fa-info-circle"></i> About CareerVerse</h2>
+                    <div class="about-grid">
+                        <div class="about-card">
+                            <i class="fas fa-robot"></i>
+                            <h3>AI-Powered</h3>
+                            <p>Advanced machine learning algorithms analyze your profile to suggest the perfect career paths.</p>
+                        </div>
+                        <div class="about-card">
+                            <i class="fas fa-database"></i>
+                            <h3>Comprehensive Data</h3>
+                            <p>Access to detailed information about 100+ careers across various industries.</p>
+                        </div>
+                        <div class="about-card">
+                            <i class="fas fa-user-friends"></i>
+                            <h3>Personalized</h3>
+                            <p>Recommendations tailored to your unique combination of skills, interests, and education.</p>
+                        </div>
+                        <div class="about-card">
+                            <i class="fas fa-chart-bar"></i>
+                            <h3>Data-Driven</h3>
+                            <p>Salary insights, growth outlooks, and skill requirements for informed decisions.</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <!-- Career Detail Modal -->
+        <div class="modal" id="career-modal">
+            <div class="modal-content">
+                <span class="close-modal" onclick="closeModal()">&times;</span>
+                <div id="modal-body"></div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
